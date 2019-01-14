@@ -6,10 +6,10 @@ def hello_t(array)
       #puts array.index(i)
       i += 1
     end
-    array
   else 
     puts "Hey! No block was given!"
   end
+  return array
 end
 
 hello_t(["Tim", "Tom", "Jim"]) do |name|
